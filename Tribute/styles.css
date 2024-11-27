@@ -1,0 +1,97 @@
+body {
+    color: #202124;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#main {
+  background-color: #e8eaed;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#img-div {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#title-center {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+#undertitle {
+  margin-top: 5px;
+}
+
+#tribute-info {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 20px 0;
+  list-style-type: "\🫛";
+  
+}
+
+ul li {
+  margin-bottom: 15px;
+  padding-left: 50px;
+  text-indent: -50px;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.centered {
+  text-align: center;
+}
+
+#quoteSection {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #cccccc;
+  margin: 20px auto;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#tribute-link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,103 @@
+body {
+    background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../bilder/bakgrunn.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 120vh;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1, p {
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+form {
+    width: 70vw;
+    max-width: 650px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+#description {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#name-label, #email-label, #number-label {
+    text-align: left;
+}
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2rem;
+    background-color: rgba(66, 65, 65, 0.8);
+    border: 1px solid rgba(66, 65, 65);
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: rgba(200, 200, 200, 0.8)
+}
+
+.label-inline {
+    display: inline-block;
+    margin: 0.5rem 1rem 0.5rem 0;
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+
+fieldset label {
+    display: block;
+    margin-right: 0.5rem 0;
+}
+
+fieldset.radio-inline label {
+    display: inline-block !important;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+fieldset.radio-inline input[type="radio"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
